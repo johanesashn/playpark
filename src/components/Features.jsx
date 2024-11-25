@@ -3,7 +3,10 @@ export default function Featured(){
         <div className="features menu-section">
             <h2 className="subTitle" data-aos="zoom-in" data-aos-duration="500"><span>Featured</span> Games</h2>
             <div className="features-games">
-                <a href="https://joquiz.netlify.app/" target="_blank" data-aos="flip-up" data-aos-duration="1000">
+                <a href="https://johanes-three-js.vercel.app" target="_blank" data-aos="flip-up" data-aos-duration="1000">
+                    <img className="features-games--image" src="./assets/updown.png" alt="" />
+                </a>
+                <a href="https://broquizz.netlify.app/" target="_blank" data-aos="flip-up" data-aos-duration="1000">
                     <img className="features-games--image" src="./assets/joquiz.png" alt="" />
                 </a>
                 <a href="https://jotenzies.netlify.app/" target="_blank" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
